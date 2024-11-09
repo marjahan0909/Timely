@@ -1,0 +1,123 @@
+
+    .container {
+        margin-top: 50px;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 50px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    .panel-primary {
+        border-color: #0000ff;
+    }
+
+    .panel-primary > .panel-heading {
+        background-color: #0000ff;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .btn-primary {
+        width: 100%;
+        background-color: #0000ff;
+        color: white;
+        font-size: 18px;
+        border: none;
+    }
+
+    .btn-primary:hover {
+        background-color: #0000cc;
+    }
+
+    .back-link {
+        color: #0000ff;
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .form-group {
+        margin-bottom: 30px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    body {
+        display: flex;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+    }
+    
+    .sidebar {
+        width: 200px;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    .sidebar h2 {
+        margin-bottom: 20px;
+    }
+    
+    .sidebar ul {
+        list-style-type: none;
+    }
+    
+    .sidebar ul li {
+        margin: 15px 0;
+    }
+    
+    .sidebar ul li a, .sidebar ul li button {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .main-content {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .generate-report {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .generate-report:hover {
+        background-color: #0056b3;
+    }
+    
+    .notification-btn {
+        font-size: 20px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dark-theme {
+        background-color: #333;
+        color: #fff;
+    }
+    
+    .dark-theme .sidebar {
+        background-color: #555;
+    }
+    
